@@ -22,11 +22,15 @@ This repository reflects my commitment to continuous learning and building a sol
 ## 🛠 Features
 
 •⁠  ⁠📸 *Screen Capture:* Automatically captures a screenshot after a 3-second delay.
+
+
 •⁠  ⁠🎨 *Image Processing:*
   - Mirrors the image horizontally.
   - Inverts the colors (negative effect).
   - Converts the image to Grayscale (Black & White).
+    
 •⁠  ⁠📦 *Archiving:* Compresses the processed image into a ⁠ .zip ⁠ file.
+
 •⁠  ⁠🧹 *Auto-Cleanup:* Deletes the temporary image file after archiving.
 
 ---
@@ -44,7 +48,7 @@ This repository reflects my commitment to continuous learning and building a sol
 ## 📦 Dependencies
 
 
-nstall the required libraries before running the project:
+install the required libraries before running the project:
 
 `pip install pyautogui Pillow`
 
@@ -79,8 +83,11 @@ Contains the final mirrored, inverted, and grayscale screenshot.
 ## 🌱 Future Improvements
 
 •⁠  ⁠Add GUI interface.
+
 •	Support multiple image filters.
+
 •	Add logging instead of print statements.
+
 •	Cross-platform path handling enhancement
 
 
